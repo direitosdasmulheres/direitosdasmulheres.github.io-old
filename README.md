@@ -19,12 +19,8 @@ O nosso grupo decidiu escolher este tema para criarmos uma ligação entre a evo
 
 # código
 ##  background.js
-
-~~~
-let c1,c2;
-
+`let c1,c2;
 function background_gradient() {
-  
   /* Cria o gradiente */
   c1 = color("#43a2a7");
   c2 = color("#cd295a");
@@ -34,5 +30,4 @@ function background_gradient() {
     let newc = lerpColor(c1,c2,n);
     stroke(newc);line(0,y,width, y);
   }
-
-}
+}`
