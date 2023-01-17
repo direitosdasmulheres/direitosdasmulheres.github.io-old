@@ -4,10 +4,12 @@
 
 **[Link para o website](https://editor.p5js.org/hugomrmonteiro/sketches/RT5sPH4ci)**
 
-Estudantes:
+## Estudantes
 - Hugo Monteiro – 3200345  
 - Maria Henriques – 3200732  
 - Tomás Guimarães – 3200347
+
+## 
 
 - **Semestre:** 1º
 - **Discplina:** Laboratório de Projeto I
