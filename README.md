@@ -9,12 +9,12 @@ Estudantes:
 - Maria Henriques – 3200732  
 - Tomás Guimarães – 3200347
 
-**Semestre:** 1º
-**Discplina:** Laboratório de Projeto I
-**Licenciatura:** Design Gráfico e Multimédia
-**Universidade:**  Escola Superior de Artes e Design, Caldas da Raínha
-**Professor:** Marco Heleno
-**Último momento de Avaliação:** 14 dezembro de 2022
+- **Semestre:** 1º
+- **Discplina:** Laboratório de Projeto I
+- **Licenciatura:** Design Gráfico e Multimédia
+- **Universidade:**  Escola Superior de Artes e Design, Caldas da Raínha
+- **Professor:** Marco Heleno
+- **Último momento de Avaliação:** 14 dezembro de 2022
 
 #  referências
  [Infopedia](https://www.infopedia.pt/apoio/artigos/$historia-dos-direitos-da-mulher)  ●  [Imagem de Referência](https://www.politize.com.br/wp-content/uploads/2022/03/A-Histo%CC%81ria-dos-Direitos-das-Mulheres-3.png)  ●  [Dados Pordata](https://www.pordata.pt/portugal/alunos+matriculados+no+ensino+superior+total+e+por+sexo-1048-8485)  ●  [Tabela de Dados Utilizada](https://github.com/Dryade07/direitosdasmulheres.github.io/blob/main/tabelaDados.csv) 
