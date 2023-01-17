@@ -18,5 +18,21 @@ Em Portugal, as mulheres deixaram, perante a lei, de dever obediência ao marido
 O nosso grupo decidiu escolher este tema para criarmos uma ligação entre a evolução dos Direitos das Mulheres e o aumento das oportunidades ao mostrarmos o aumento da entrada das mesmas no ensino superior em Portugal. Poderão visualizar a relação entres estes dados, através da nossa página.
 
 # código
+##  background.js
 
+~~~
+let c1,c2;
 
+function background_gradient() {
+  
+  /* Cria o gradiente */
+  c1 = color("#43a2a7");
+  c2 = color("#cd295a");
+  
+  for(let y=0; y<height; y++){
+    n = map(y,0,height,0,1);
+    let newc = lerpColor(c1,c2,n);
+    stroke(newc);line(0,y,width, y);
+  }
+
+}
