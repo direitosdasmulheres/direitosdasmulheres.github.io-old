@@ -14,8 +14,12 @@ Tomás Guimarães – 3200347
 
 A Relação dos Direitos das Mulheres com a entrada de estudantes do género feminino nas Universidades
 
+"Os Direitos das Mulheres em Portugal"
+
 Em Portugal, as mulheres deixaram, perante a lei, de dever obediência ao marido em 1910 e, em 1931, puderam votar desde que tivessem um curso secundário ou superior. Só em 1968 obtiveram direitos políticos iguais aos dos homens, e, apenas no ano seguinte, salário equivalente ao masculino. Em 1990 passou a ser proibida a publicidade com discriminação sexual e, nove anos mais tarde, foi criado o Ministério da Igualdade.
-O nosso grupo decidiu escolher este tema para criarmos uma ligação entre a evolução dos Direitos das Mulheres e o aumento das oportunidades ao mostrarmos o aumento da entrada das mesmas no ensino superior em Portugal. Poderão visualizar a relação entres estes dados, através da nossa página.
+
+O nosso grupo decidiu escolher este tema para criarmos uma ligação entre a evolução dos Direitos das Mulheres e a evolução das oportunidades ao mostrarmos o aumento da entrada das mesmas no ensino superior em Portugal. Poderão visualizar a relação entres estes dados, através da nossa página. 
+Apesar de relacionarmos com dados exteriores ao país, estes marcos históricos também influênciaram as mulheres portuguesas a lutarem pelos seus direitos. 
 
 # código
 ##  background.js
@@ -39,9 +43,9 @@ function background_gradient() {
 ## texts.js
 
 ~~~
-let ourText = "🔴 1979 | Convenção -ominação de Todas as Formas de Discriminação contra as Mulheres (ONU)\n🟠 1993 | Declaração da Eliminação da Violência contra as Mulheres (ONU)\n🟡 1995 | IV Conferência Mundial sobre a Mulher - Declaração de Beijing (China)\n🟢 2000 | Resolução 1325 - Participação Feminina na Prevenção e Resolução de Conflitos (ONU)\n🔵 2015 | Objetivos de Desenvolvimento Sustentável - Igualdade de Género até 2030 (ONU)\n🟣 2017 | 3.5 a 5.5 Milhões de pessoas participam na 'Marcha das Mulheres'";
+let ourText = "🔴 1979 | Convention - Elimination of All Forms of Discrimination Against Women (ONU)\\n🟠 1993 | Declaration on the Elimination of Violence against Women (ONU)\\n🟡 1995 | IV World Conference on Women - Beijing Declaration (China)\\n🟢 2000 | Resolution 1325 - Women's Participation in Conflict Prevention and Resolution (ONU)\\n🔵 2015 | Sustainable Development Goals - Gender Equality by 2030 (ONU)\\n🟣 2017 | 3.5 to 5.5 Million people participate in the 'Women's March'";
 
-let descricao = "Em Portugal, as mulheres deixaram, perante a lei, de dever obediência ao marido em 1910 e, em 1931, puderam votar desde que tivessem um curso secundário ou superior. Só em 1968 obtiveram direitos políticos iguais aos dos homens, e, apenas no ano seguinte, salário equivalente ao masculino. Em 1990 passou a ser proibida a publicidade com discriminação sexual e, nove anos mais tarde, foi criado o Ministério da Igualdade.";
+let descricao = "In Portugal, women stopped being legally bound to obey their husbands in 1910 and, in 1931, they were allowed to vote as long as they had a high school or college education. Only in 1968 did they obtain political rights equal to those of men, and only in the following year did they obtain a salary equivalent to that of men. In 1990 advertising with sexual discrimination was banned, and nine years later the Ministry of Equality was created.";
 ~~~
 
 ## sketch.js
@@ -98,10 +102,14 @@ function windowResized()
 ~~~
 function drawIntro()
 {
-  textSize (40);
+  textSize (30);
+  noStroke();
+  fill(255);
   textAlign (CENTER);
-  text("Titulo do projeto", width/2, 100);
+  textStyle(BOLD);
+  text("WOMEN RIGHTS HISTORY IN PORTUGAL", width/2, 100);
   
+  textStyle(NORMAL);
   textSize(20);
   textAlign(CENTER);
   textWrap(WORD);
@@ -187,9 +195,12 @@ class DataElement {
         textL = 716;
         noStroke();
         fill(255);
-        textSize(40);
+        textSize(30);
         textAlign (CENTER, CENTER);
-        text("A HISTÓRIA DOS DIREITOS DAS MULHERES", width/2, this.margem); 
+        textStyler(BOLD);
+        text("WOMEN RIGHTS IN PORTUGAL", width/2, this.margem); 
+        
+        textStyle(NORMAL);
         textSize(16);
         textAlign (LEFT, CENTER);
         text(ourText, width/2-textL/2, height-120-100, width/2+textL/2, 120);
@@ -240,3 +251,8 @@ class DataElement {
     }
 }
 ~~~
+
+#  conclusão
+
+A luta pelos direitos das mulheres no mundo e em Portugal continua até aos dias de hoje. Infelizmente, ainda existem práticas no mundo que colocam a mulher abaixo do homem e em Portugal também ainda nos deparamos com casos assim. 
+A luta pelos direitos das mulheres não é só delas, é de todos. 
