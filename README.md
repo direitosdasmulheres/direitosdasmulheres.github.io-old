@@ -2,15 +2,15 @@
 
 # direitosdasmulheres.github.io
 
-**[Link para a página](https://editor.p5js.org/hugomrmonteiro/sketches/RT5sPH4ci)**
+**[Link para o website](https://editor.p5js.org/hugomrmonteiro/sketches/RT5sPH4ci)**
 Laboratório de Projeto I
 
 Hugo Monteiro – 3200345  
 Maria Henriques – 3200732  
 Tomás Guimarães – 3200347
 
-##  referências
- [Infopedia](https://www.infopedia.pt/apoio/artigos/$historia-dos-direitos-da-mulher )  ●  [Imagem de Referência](https://www.politize.com.br/wp-content/uploads/2022/03/A-Histo%CC%81ria-dos-Direitos-das-Mulheres-3.png)  ●  [Dados Pordata](https://www.pordata.pt/portugal/alunos+matriculados+no+ensino+superior+total+e+por+sexo-1048-8485)
+#  referências
+ [Infopedia](https://www.infopedia.pt/apoio/artigos/$historia-dos-direitos-da-mulher)  ●  [Imagem de Referência](https://www.politize.com.br/wp-content/uploads/2022/03/A-Histo%CC%81ria-dos-Direitos-das-Mulheres-3.png)  ●  [Dados Pordata](https://www.pordata.pt/portugal/alunos+matriculados+no+ensino+superior+total+e+por+sexo-1048-8485)  ●  [Tabela de Dados Utilizada](https://github.com/Dryade07/direitosdasmulheres.github.io/blob/main/tabelaDados.csv) 
 
 # conceito
 A Relação dos Direitos das Mulheres com a entrada de estudantes do género feminino nas Universidades
